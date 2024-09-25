@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Tab Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tab-content">
+            <div id="home" class="tab active">
+                <h1>Home</h1>
+                <p>Welcome to our homepage!</p>
+            </div>
+            <div id="about" class="tab">
+                <h1>About</h1>
+                <p>Learn more about us here.</p>
+            </div>
+            <div id="contact" class="tab">
+                <h1>Contact Us</h1>
+                <div id="home" class="tab active">
+    <h1>Home</h1>
+    <ul class="item-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+        <li>Item 7</li>
+        <li>Item 8</li>
+        <li>Item 9</li>
+        <li>Item 10</li>
+    </ul>
+</div>
+                <p>Get in touch with us!</p>
+            </div>
+        </div>
+        <div class="tabs">
+            <button onclick="showTab('home')" class="tab-button active">Home</button>
+            <button onclick="showTab('about')" class="tab-button">About</button>
+            <button onclick="showTab('contact')" class="tab-button">Contact Us</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
