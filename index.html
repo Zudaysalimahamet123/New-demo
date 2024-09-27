@@ -3,89 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MI Meadow Bliss</title>
+    <title>zudays shoping</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(to bottom, #e0f7fa, #a5d6a7); /* Buluug khafiif ah ilaa cagaar */
-            color: #2e7d32;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            padding: 50px 0;
-            background-color: rgba(255, 255, 255, 0.8);
-            border-bottom: 2px solid #ffca28;
-        }
-        h1 {
-            font-size: 3em;
-            margin: 0;
-        }
-        section {
-            margin: 40px 20px;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9);
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-        footer {
-            padding: 30px;
-            background-color: #f0f4c3;
-            border-top: 2px solid #ffca28;
-        }
-        .button {
-            background-color: #ffca28;
-            color: white;
-            padding: 15px 30px;
-            border: none;
-            border-radius: 5px;
-            font-size: 1.2em;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        .button:hover {
-            background-color: #ffc107; /* Midabka huruud ee isbedelka */
-        }
+    body {
+   background-image: url("gallery1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment:fixed;
+    }
+  
     </style>
+    
+    
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>zudays shoping</h1>
+        <nav>
+          <img src="sude/logo.jpg" alt="aCompany Logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <h1>MI Meadow Bliss</h1>
-    <p>Ku raaxayso quruxda dabiiciga ah</p>
-</header>
+    <section id="home">
+        <h2>Ku soo dhawoow zudays shoping</h2>
+        <p>Meel ganacsi oo furan, loogu talagalay adeegyadaada.</p>
+    </section>
 
-<section>
-    <h2>Quruxda Dabiiciga Ah</h2>
-    <p>Kani waa meesha aad ka heli karto nabad iyo farxad.</p>
-    <img src="meadow-image.jpg" alt="Meadow">
-</section>
+    <section id="about">
+        <h2>Nagu Saabsan</h2>
+        <p>zudays shoping waa xarun ganacsi oo bixisa adeegyo kala duwan.</p>
+    </section>
 
-<section>
-    <h2>Bottoms Cusub</h2>
-    <p>Dhar cusub oo raaxo leh, midabka carina ah.</p>
-    <ul style="list-style-type: none; padding: 0;">
-        <li>✔️ Dharka ka samaysan suuf dabiici ah</li>
-        <li>✔️ Naqshado ubax ah</li>
-        <li>✔️ Raaxo iyo xarrago</li>
-    </ul>
-    <button class="button">Dalbo Hadda</button>
-</section>
+    <section id="services">
+        <h2>Adeegyada</h2>
+        <ul>
+            <li>Adeeg 1</li>
+            <li>Adeeg 2</li>
+            <li>Adeeg 3</li>
+        </ul>
+    </section>
 
-<footer>
-    <p>Nala soo xiriir si aad u dalbato dhar cusub.</p>
-    <p>
-        <a href="#">Facebook</a> |
-        <a href="#">Instagram</a> |
-        <a href="#">Twitter</a>
-    </p>
-</footer>
+    <section id="contact">
+        <h2>La Xiriir</h2>
+        <form id="contactForm">
+            <label for="name">Magacaaga:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Emailkaaga:</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Dir">
+        </form>
+    </section>
 
+    <footer>
+        <p>&copy; 2024 zudays shoping. Dhamaan xuquuqda way xifdisan yihiin.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
